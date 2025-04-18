@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import Downnav from "./Downnav";
 import About from "./About";
 export default function order2() {
-    var uri = "http://localhost:1000/";
+    var uri = "https://sunshine-backend-e1zz.onrender.com/";;
     // var navi = useNavigate();
 
     const [data2, setdata2] = useState([]);

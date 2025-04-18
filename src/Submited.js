@@ -7,7 +7,7 @@ import { useNavigate } from "react-router-dom";
 export default function Submit() {
     var navi = useNavigate();
 
-    var uri = "http://localhost:1000/";
+    var uri = "https://sunshine-backend-e1zz.onrender.com/";;
     const [data, setdata] = useState([]);
 
     var user = localStorage.getItem('useridlocal')

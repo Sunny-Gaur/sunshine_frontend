@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Downnav from "./Downnav";
 export default function Earphone() {
-    var uri = "http://localhost:1000/";
+    var uri = "https://sunshine-backend-e1zz.onrender.com/";;
     var hh = localStorage.getItem("useridlocal");
     console.log(hh);
     const[man,setdatas] =useState()

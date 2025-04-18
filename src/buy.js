@@ -4,7 +4,7 @@ import { useEffect, useState, useNavigate } from "react";
 import { Link } from "react-router-dom";
 
 export default function Buy() {
-    var uri = "http://localhost:1000/";
+    var uri = "https://sunshine-backend-e1zz.onrender.com/";;
     var user = localStorage.getItem('useridlocal')
 
 

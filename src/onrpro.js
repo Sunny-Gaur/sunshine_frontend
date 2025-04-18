@@ -9,7 +9,7 @@ import Navbar from "./Navbar";
 
 export default function Onrpro() {
 
-    var uri = "http://localhost:1000/";
+    var uri = "https://sunshine-backend-e1zz.onrender.com/";;
     var navi = useNavigate();
 
     var user = localStorage.getItem('useridlocal')

@@ -5,7 +5,7 @@ import Nav2 from "./Nav2"
 import Adminbar from "./Adminbar"
 import Addproduct from "./Addproduct"
 export default function Adminpannel(){
-    var uri = "http://localhost:1000/"
+    var uri = "https://sunshine-backend-e1zz.onrender.com/";
 
     const [data2, setdata2] = useState([]);
     function getdata() {

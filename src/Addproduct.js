@@ -6,7 +6,7 @@ import Navbar from "./Navbar";
 import Nav2 from "./Nav2";
 
 export default function Addproduct() {
-    var uri = "http://localhost:1000/"
+    var uri = "https://sunshine-backend-e1zz.onrender.com/";
     const [prog, setprog] = useState(0)
     function subform(e) {
         e.preventDefault();
