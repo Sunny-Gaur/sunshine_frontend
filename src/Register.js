@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 
 import { useEffect, useState } from "react";
 export default function Register() {
-    var uri = 'http://localhost:1000/';
+    var uri = "https://sunshine-backend-e1zz.onrender.com/";
     var navi = useNavigate();
     const [Nms, setnms] = useState();
     const [Nmsl, setnmsl] = useState();

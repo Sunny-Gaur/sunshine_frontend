@@ -3,7 +3,7 @@
 
 
 export default function Form(){
-    var uri='http://localhost:1000/'
+    var uri = "https://sunshine-backend-e1zz.onrender.com/";
     function handleform(e){
         e.preventDefault();
         var data = new FormData(e.currentTarget)

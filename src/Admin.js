@@ -6,7 +6,7 @@ import { Link, useNavigate } from "react-router-dom";
 export default function Admin() {
     var navi = useNavigate();
 
-    var uri = 'http://localhost:1000/'
+    var uri = "https://sunshine-backend-e1zz.onrender.com/";
     function subform(e){
         e.preventDefault();
         var data = new FormData(e.currentTarget);

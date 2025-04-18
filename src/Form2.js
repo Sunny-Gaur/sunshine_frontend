@@ -3,7 +3,7 @@ import axios from 'axios';
 import { db } from './firebase';
 
 export default function Form() {
-        var uri = 'http://localhost:1000/'
+        var uri = "https://sunshine-backend-e1zz.onrender.com/";
         function handleform2(e) {
                 e.preventDefault();
                 var data = new FormData(e.currentTarget)

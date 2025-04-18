@@ -8,7 +8,7 @@ export default function Getpro() {
     var ab = localStorage.getItem("search")
     var navi = useNavigate();
 
-    var uri = 'http://localhost:1000/'
+    var uri = "https://sunshine-backend-e1zz.onrender.com/";
     const [data, setdata] = useState([])
     function getdata() {
         console.log(ab)
