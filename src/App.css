@@ -544,6 +544,11 @@ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 display: none;
 }
 
+
+.dropdown-menu li{
+    padding-left: 15px;
+}
+
 @media only screen and (max-width:767px) {
     #small{
         display: block;
