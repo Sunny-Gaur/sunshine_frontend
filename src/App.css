@@ -556,7 +556,8 @@ display: none;
     align-items: center;
     justify-content: center;
     gap: 15px;
-    
+    flex-wrap: wrap;
+
 }
 
 .dropdown-menu li:hover{
