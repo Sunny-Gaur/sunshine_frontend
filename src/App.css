@@ -551,6 +551,14 @@ display: none;
     
 }
 
+.row-flex {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    
+}
+
 .dropdown-menu li:hover{
     background: linear-gradient(180deg, #c055fe, #6c2f90);
 }

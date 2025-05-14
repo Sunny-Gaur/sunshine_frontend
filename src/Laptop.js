@@ -32,6 +32,7 @@ export default function Laptop() {
             <div className=' '>
                 {/* &nbsp; */}
                 <div className="col-md-12">
+                <div className="row row-flex">
                     {data2.map((row) => (
 
 
@@ -60,6 +61,7 @@ export default function Laptop() {
 
 
                     ))}
+                    </div>
                 </div>
             </div>
 
