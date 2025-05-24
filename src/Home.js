@@ -111,6 +111,7 @@ export default function Home() {
                         <span className="glyphicon glyphicon-flash ic2"></span> <span className="tex">Flash-sale</span>
                     </div>
                     <br />
+                    <div className="row gap-2">
                       <div className="col-lg-2 col-md-3 col-sm-3 col-xs-6">
                       <Link to="./Earphone">    <div className="col-lg-12 box text-center" data-aos="fade-down">    
                         {/* ./detail */}
@@ -287,6 +288,7 @@ export default function Home() {
                         </div>
                         </Link>
 
+                    </div>
                     </div>
 
                     {/* 2nd start */}
